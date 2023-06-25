@@ -1,3 +1,8 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
 .App {
    text-align: center;
 }
@@ -35,4 +40,32 @@
    to {
       transform: rotate(360deg);
    }
+}
+
+.disflex {
+   display: flex;
+}
+
+.imglogo img {
+   width: 50px;
+}
+
+ul {
+   list-style: none;
+}
+
+li {
+   text-align: left;
+   font-size: 14px;
+}
+
+.heading {
+   font-size: 16px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
+.title {
+   margin-left: 10px;
 }

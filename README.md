@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+git remote add origin https://github.com/PhonIXQ/imdb.git
+git branch -M main
+git push -u origin main
+
 In the project directory, you can run:
 
 ### `npm start`
