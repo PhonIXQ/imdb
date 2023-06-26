@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+   let ep = 31;
    const [episode, setEpisode] = useState(0);
 
    return (
@@ -15,22 +16,26 @@ function App() {
             <ul>
                <li className="disflex">
                   <div className="imglogo">
-                     <img src="https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_QL75_UY148_CR1,0,100,148_.jpg" alt="logo" />
+                     <img src="https://m.media-amazon.com/images/M/MV5BNzdlMGY1NDMtNzNjNi00YjE5LTlhZmUtNGNiNWQ1NTMxMTdmXkEyXkFqcGdeQXVyMjI2ODE1NTA@._V1_QL75_UY562_CR21,0,380,562_.jpg" alt="logo" />
                   </div>
                   <ul className="title">
-                     <li className="heading">Harry Potter and the Sorcerer's Stone</li>
-                     <li>2001</li>
-                     <li>Daniel Radcliffe, Rupert Grint</li>
+                     <li className="heading">Till the End of the Moon</li>
+                     <li>TV Series - 2023</li>
+                     <li>
+                        {episode} of {ep} episodes
+                     </li>
                   </ul>
                </li>
                <li className="disflex">
                   <div className="imglogo">
-                     <img src="https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_QL75_UY148_CR0,0,100,148_.jpg" alt="logo" />
+                     <img src="https://m.media-amazon.com/images/M/MV5BZjE5ZDJmZGItMDRkNi00YjAxLTliYjQtYjBjZjk4Yjk4NjdhXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_QL75_UX380_CR0,4,380,562_.jpg" alt="logo" />
                   </div>
                   <ul className="title">
-                     <li className="heading">Harry Potter and the Goblet of Fire</li>
-                     <li>2005</li>
-                     <li>Daniel Radcliffe, Emma Watson</li>
+                     <li className="heading">King the Land</li>
+                     <li>TV Series - 2023</li>
+                     <li>
+                        {episode} of {16} episodes
+                     </li>
                   </ul>
                </li>
                <li className="disflex">
