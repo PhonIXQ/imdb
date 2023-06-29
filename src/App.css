@@ -9,6 +9,7 @@ html {
 
 .App {
    text-align: center;
+   color: white;
 }
 
 .App-logo {
@@ -17,9 +18,9 @@ html {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-   .App-logo {
+   /* .App-logo {
       animation: App-logo-spin infinite 20s linear;
-   }
+   } */
 }
 
 .App-header {
@@ -30,7 +31,6 @@ html {
    align-items: center;
    justify-content: center;
    font-size: calc(10px + 2vmin);
-   color: white;
 }
 
 .App-link {
@@ -72,4 +72,14 @@ li {
 
 .title {
    margin-left: 10px;
+}
+
+footer {
+   text-align: center;
+   padding: 32px;
+}
+
+footer a {
+   text-decoration: none;
+   color: red;
 }

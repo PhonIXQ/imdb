@@ -22,7 +22,7 @@ function App() {
                      <li className="heading">Till the End of the Moon</li>
                      <li>TV Series - 2023</li>
                      <li>
-                        {episode} of {ep} episodes
+                        {40} of {ep} episodes
                      </li>
                   </ul>
                </li>
@@ -34,7 +34,7 @@ function App() {
                      <li className="heading">King the Land</li>
                      <li>TV Series - 2023</li>
                      <li>
-                        {episode} of {16} episodes
+                        {4} of {16} episodes
                      </li>
                   </ul>
                </li>
@@ -49,11 +49,14 @@ function App() {
                   </ul>
                </li>
             </ul>
-            <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            {/* <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
                Learn React with Me
-            </a>
-            <button onClick={() => setEpisode((episode) => episode + 1)}>Episode {episode}</button>
+            </a> */}
+            {/* <button onClick={() => setEpisode((episode) => episode + 1)}>Episode {episode}</button> */}
          </header>
+         <footer>
+            <a href="/">PhonIXQ</a> <span>&copy; 2023</span>
+         </footer>
       </div>
    );
 }
