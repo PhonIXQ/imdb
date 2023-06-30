@@ -9,7 +9,7 @@ function App() {
    return (
       <div className="App">
          <header className="App-header">
-            <h3>imdboy</h3>
+            <h3>Imdboy</h3>
             <img src={logo} className="App-logo" alt="logo" />
 
             <div></div>
@@ -20,9 +20,10 @@ function App() {
                   </div>
                   <ul className="title">
                      <li className="heading">Till the End of the Moon</li>
-                     <li>TV Series - 2023</li>
-                     <li>
-                        {40} of {ep} episodes
+                     <li className="year">TV Series - 2023</li>
+                     <li className="season">Season 1</li>
+                     <li className="episode">
+                        Episode {40} of {40} eps
                      </li>
                   </ul>
                </li>
@@ -32,20 +33,50 @@ function App() {
                   </div>
                   <ul className="title">
                      <li className="heading">King the Land</li>
-                     <li>TV Series - 2023</li>
-                     <li>
-                        {4} of {16} episodes
+                     <li className="year">TV Series - 2023</li>
+                     <li className="season">Season 1</li>
+                     <li className="episode">
+                        Episode {4} of {16} episodes
                      </li>
                   </ul>
                </li>
                <li className="disflex">
                   <div className="imglogo">
-                     <img src="https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_QL75_UY148_CR0,0,100,148_.jpg" alt="logo" />
+                     <img src="https://m.media-amazon.com/images/M/MV5BYjA3MWE5NjctNjdhZS00ZmJmLWE3YjMtYjI2NDkwNzBmZmZiXkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_QL75_UY414_CR6,0,280,414_.jpg" alt="logo" />
                   </div>
                   <ul className="title">
-                     <li className="heading">Harry Potter and the Prisoner of Azkaban</li>
-                     <li>2004</li>
-                     <li>Daniel Radcliffe, Emma Watson</li>
+                     <li className="heading">See You in My 19th Life</li>
+                     <li className="year">TV Series - 2023</li>
+                     <li className="season">Season 1</li>
+                     <li className="episode">
+                        Episode {0} of {12} episodes
+                     </li>
+                  </ul>
+               </li>
+               <li className="disflex">
+                  <div className="imglogo">
+                     <img src="https://m.media-amazon.com/images/M/MV5BMGI4NjY3Y2UtY2JiMi00ZTJiLWFlMTItY2ZlNzA2MzJmZDQ1XkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_QL75_UY414_CR7,0,280,414_.jpg" alt="logo" />
+                  </div>
+                  <ul className="title">
+                     <li className="heading">The Real Deal Has Come!</li>
+                     <li className="year">TV Series - 2023</li>
+                     <li className="season">Season 1</li>
+                     <li className="episode">
+                        Episode {0} of {50} episodes
+                     </li>
+                  </ul>
+               </li>
+               <li className="disflex">
+                  <div className="imglogo">
+                     <img src="https://m.media-amazon.com/images/M/MV5BNzM4MWNmYjctMDE1MS00ZGIyLTkxMTktZWJlM2NlMmRmYTZkXkEyXkFqcGdeQXVyNjI4NDY5ODM@._V1_QL75_UY414_CR5,0,280,414_.jpg" alt="logo" />
+                  </div>
+                  <ul className="title">
+                     <li className="heading">The Good Bad Mother</li>
+                     <li className="year">TV Series - 2023</li>
+                     <li className="season">Season 1</li>
+                     <li className="episode">
+                        Episode {0} of {14} episodes
+                     </li>
                   </ul>
                </li>
             </ul>
